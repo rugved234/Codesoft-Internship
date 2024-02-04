@@ -10,12 +10,12 @@
   </head>
   <body>
     <header>
-      <h1>Harshal Khaire</h1>
+      <h1>Rugved Padekar</h1>
       <p> Frontend Developer  | Java Developer</p>
     </header>
 R
     <section id="about">
-      <img src="profile.jpg" alt="Harshal Khaire" />
+      <img src="profile.jpg" alt="Rugved Padekar" />
     </section>
 
     <section id="about1">
@@ -45,11 +45,11 @@ R
     </section>
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: khaireharshal07@gmail.com</p>
-      <p>Phone: 9699781928</p>
+      <p>Email: rugvedpadekar@gmail.com</p>
+      <p>Phone: 8793841855</p>
     </section>
     <footer>
-      <p>&copy; 2024 Code Soft Web Development - Harshal Khaire.</p>
+      <p>&copy; 2024 Code Soft Web Development - Rugved Padekar.</p>
     </footer>
   </body>
 </html>
