@@ -1,0 +1,133 @@
+# HTML CODE
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Harshal Khaire</h1>
+      <p> Frontend Developer  | Java Developer</p>
+    </header>
+R
+    <section id="about">
+      <img src="profile.jpg" alt="Harshal Khaire" />
+    </section>
+
+    <section id="about1">
+      <h3>
+        Enthusiastic and detail-oriented fresher passionate about crafting intuitive user experiences through front-end development.Proficient in HTML,CSS,and JavaScript,eager to leverage strong problem-solving skills and creativity to contribute effectively to a dynamic team in a development team.
+      </h3>
+    </section>
+
+    <section id="projects">
+      <h1>PROJECTS</h1>
+      <div class="project">
+        <img src="P1.jpg" alt="Project 1" />
+        <h1>Project 1</h1>
+        <H1>CAR SHOP TEMPLATE</H1>
+      </div>
+      <div class="project">
+        <img src="P2.jpg" alt="Project 2" />
+        <h1>Project 2</h1>
+        <h1>
+          ZOO MANAGEMENT SYSTEM
+        </h1>
+      </div>
+    </section>
+    <section id="resume">
+      <h2>Resume</h2>
+      <p><a href="resume.pdf" download> Download Resume (PDF)</a></p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: khaireharshal07@gmail.com</p>
+      <p>Phone: 9699781928</p>
+    </section>
+    <footer>
+      <p>&copy; 2024 Code Soft Web Development - Harshal Khaire.</p>
+    </footer>
+  </body>
+</html>
+
+#CSS CODE
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(198, 209, 216);
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  #about1 {
+    text-align: center;
+    padding: 1px 0;
+  }
+  #about {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #about img {
+    width: 90px;
+    border-radius: 30%;
+  }
+  
+  #skills {
+    text-align: left;
+    padding: 10px 0;
+  }
+  
+  #skills ul {
+    list-style: none;
+  }
+  
+  #projects {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  #resume,
+  #contact {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #resume a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
